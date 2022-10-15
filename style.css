@@ -1,27 +1,43 @@
+@font-face {
+    font-family: "Karma";
+    src: url(KarmaFuture.ttf);
+}
+
+@font-face {
+    font-family: "Brass";
+    src: url(regular.otf);
+}
+
 body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+	font-family: "Brass", 'Courier New', Courier, monospace;
+    color: #43464B;;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-	background: linear-gradient(to right, rgb(102, 228, 245) , rgb(96, 255, 144)); /* Standard syntax */
+	background: linear-gradient(to right, rgb(169, 229, 217), rgb(152, 198, 221))no-repeat fixed;
+
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.7);
+    font-family: "Karma", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: #43464B;
+    background-color: rgba(255, 255, 255, .5);
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    width: 100%;
+    border: 8px solid white;
+    border-radius: 3vh;
+    padding: 1rem 2rem 1.3rem;
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.7);
+    font-family: "Brass", 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #43464B;;
     text-align: center;
-    text-transform: none;
-    letter-spacing: 0.01em;
 
 }
+
+h4 {
+    font-family: "Brass", 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
